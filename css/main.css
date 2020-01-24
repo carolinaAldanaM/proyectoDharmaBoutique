@@ -1,0 +1,63 @@
+html {
+  font-family: Montserrat, sans-serif; }
+
+.navbar-gradient {
+  background: linear-gradient(to right, #fff 45%, #66ffff 100%); }
+
+.colorPrimary {
+  color: green; }
+
+.colorSecundary {
+  color: lightskyblue; }
+
+.colorLightPrimary {
+  color: mediumaquamarine; }
+
+th, td {
+  width: 10%;
+  text-align: center;
+  border: #3390db solid 1px; }
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.row > .col {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.titulosTabla {
+  background-color: mediumaquamarine;
+  color: white; }
+
+.card-img-top {
+  padding: 2%; }
+
+.carousel-inner {
+  max-height: 400px; }
+
+h1, h2 {
+  text-align: center; }
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: mediumaquamarine; }
+
+.logo__imagen {
+  max-width: 120px; }
+
+.logo__social {
+  max-width: 30px; }
+
+.cuatrocientosCuatro {
+  margin-top: 15%; }
+
+.cuatrocientosCuatro--h {
+  margin-left: 0; }

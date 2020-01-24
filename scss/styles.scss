@@ -1,0 +1,72 @@
+html{
+    font-family: Montserrat, sans-serif;
+}
+.navbar-gradient{
+    background: linear-gradient(to right, #fff 45%, #66ffff 100%);
+}
+$colores:(
+    colorPrimary: green,
+    colorSecundary: lightskyblue,
+    colorLightPrimary: mediumaquamarine,
+);
+@each $name-color, $text-color in $colores {
+    .#{$name-color}{
+        color: $text-color;
+    }
+}
+th, td{
+    width: 10%;
+    text-align: center;
+    border: rgb(51, 144, 219) solid 1px;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.row >.col{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.titulosTabla{
+    background-color: mediumaquamarine;
+    color: white;
+}
+.card-img-top{
+    padding: 2%;
+}
+.carousel-inner{
+    max-height: 400px;
+}
+h1, h2 {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: mediumaquamarine;
+}
+@mixin sizes($max-width){
+    max-width: $max-width;
+}
+img{
+    @include sizes(100% )
+}
+.logo__imagen{
+    @include sizes(120px )
+}
+.logo__social{
+    @include sizes(30px)
+}
+.cuatrocientosCuatro{ 
+    margin-top: 15%;
+}
+.cuatrocientosCuatro--h{ 
+    margin-left: 0;;
+}
