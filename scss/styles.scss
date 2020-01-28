@@ -70,3 +70,10 @@ img{
 .cuatrocientosCuatro--h{ 
     margin-left: 0;;
 }
+.nav-link{
+    font-size: medium;
+    transition: font-size .5s;
+}
+.nav-link:hover{
+    font-size: x-large;
+}

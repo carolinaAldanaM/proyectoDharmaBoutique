@@ -50,6 +50,9 @@ footer {
   width: 100%;
   color: mediumaquamarine; }
 
+img {
+  max-width: 100%; }
+
 .logo__imagen {
   max-width: 120px; }
 
@@ -61,3 +64,10 @@ footer {
 
 .cuatrocientosCuatro--h {
   margin-left: 0; }
+
+.nav-link {
+  font-size: medium;
+  transition: font-size .5s; }
+
+.nav-link:hover {
+  font-size: x-large; }
